@@ -1,0 +1,30 @@
+```
+[INFO   ] [Window      ] Provider: x11(['window_sdl2'] ignored)
+[CRITICAL] [Window      ] Unable to find any valuable Window provider. Please enable debug logging (e.g. add -d if running from the command line, or change the log level in the config) and re-run your app to identify potential causes
+sdl2 - RuntimeError: b"Couldn't find matching GLX visual"
+  File "/home/pi/.local/lib/python3.7/site-packages/kivy/core/__init__.py", line 71, in core_select_lib
+    cls = cls()
+  File "/home/pi/.local/lib/python3.7/site-packages/kivy/core/window/window_sdl2.py", line 165, in __init__
+    super(WindowSDL, self).__init__()
+  File "/home/pi/.local/lib/python3.7/site-packages/kivy/core/window/__init__.py", line 1071, in __init__
+    self.create_window()
+  File "/home/pi/.local/lib/python3.7/site-packages/kivy/core/window/window_sdl2.py", line 309, in create_window
+    self.get_gl_backend_name())
+  File "kivy/core/window/_window_sdl2.pyx", line 228, in kivy.core.window._window_sdl2._WindowSDL2Storage.setup_window
+  File "kivy/core/window/_window_sdl2.pyx", line 76, in kivy.core.window._window_sdl2._WindowSDL2Storage.die
+
+x11 - ValueError: invalid literal for int() with base 10: 'False'
+  File "/home/pi/.local/lib/python3.7/site-packages/kivy/core/__init__.py", line 71, in core_select_lib
+    cls = cls()
+  File "/home/pi/.local/lib/python3.7/site-packages/kivy/core/window/__init__.py", line 1071, in __init__
+    self.create_window()
+  File "kivy/core/window/window_x11.pyx", line 161, in kivy.core.window.window_x11.WindowX11.create_window
+  File "/usr/lib/python3.7/configparser.py", line 818, in getint
+    fallback=fallback, **kwargs)
+  File "/usr/lib/python3.7/configparser.py", line 808, in _get_conv
+    **kwargs)
+  File "/usr/lib/python3.7/configparser.py", line 802, in _get
+    return conv(self.get(section, option, **kwargs))
+
+[CRITICAL] [App         ] Unable to get a Window, abort.
+```
