@@ -1,0 +1,527 @@
+[ INFO] [1714114911.852762541]: rviz version 1.14.20
+[ INFO] [1714114911.852889941]: compiled against Qt version 5.12.8
+[ INFO] [1714114911.852921135]: compiled against OGRE version 1.9.0 (Ghadamon)
+[ INFO] [1714114911.876144299]: Forcing OpenGl version 0.
+libGL error: failed to create dri screen
+libGL error: failed to load driver: rockchip
+libGL error: failed to create dri screen
+libGL error: failed to load driver: rockchip
+libGL error: failed to create dri screen
+libGL error: failed to load driver: rockchip
+libGL error: failed to create dri screen
+libGL error: failed to load driver: rockchip
+[ INFO] [1714114915.902155668]: Stereo is NOT SUPPORTED
+[ INFO] [1714114915.902409017]: OpenGL device: llvmpipe (LLVM 12.0.0, 128 bits)
+[ INFO] [1714114915.902534963]: OpenGl version: 3.1 (GLSL 1.4).
+
+Verbose 
+LIBGL_DEBUG=verbose rviz
+[ INFO] [1714115996.923519110]: rviz version 1.14.20
+[ INFO] [1714115996.924601123]: compiled against Qt version 5.12.8
+[ INFO] [1714115996.924853330]: compiled against OGRE version 1.9.0 (Ghadamon)
+[ INFO] [1714115996.947146400]: Forcing OpenGl version 0.
+libGL: Can't open configuration file /etc/drirc: No such file or directory.
+libGL: Can't open configuration file /home/ubuntu/.drirc: No such file or directory.
+libGL: using driver rockchip for 26
+libGL: Can't open configuration file /etc/drirc: No such file or directory.
+libGL: Can't open configuration file /home/ubuntu/.drirc: No such file or directory.
+libGL: MESA-LOADER: device is not located on the PCI bus
+libGL: using driver rockchip for 26
+libGL: MESA-LOADER: dlopen(/usr/lib/aarch64-linux-gnu/dri/rockchip_dri.so)
+libGL: Can't open configuration file /etc/drirc: No such file or directory.
+libGL: Can't open configuration file /home/ubuntu/.drirc: No such file or directory.
+libGL: Can't open configuration file /etc/drirc: No such file or directory.
+libGL: Can't open configuration file /home/ubuntu/.drirc: No such file or directory.
+libGL: Can't open configuration file /etc/drirc: No such file or directory.
+libGL: Can't open configuration file /home/ubuntu/.drirc: No such file or directory.
+drmOpenDevice: node name is /dev/dri/renderD128
+drmOpenDevice: open result is 29, (OK)
+drmOpenDevice: node name is /dev/dri/renderD129
+drmOpenDevice: open result is 29, (OK)
+drmOpenDevice: node name is /dev/dri/renderD130
+drmOpenDevice: node name is /dev/dri/renderD131
+drmOpenDevice: node name is /dev/dri/renderD132
+drmOpenDevice: node name is /dev/dri/renderD133
+drmOpenDevice: node name is /dev/dri/renderD134
+drmOpenDevice: node name is /dev/dri/renderD135
+drmOpenDevice: node name is /dev/dri/renderD136
+drmOpenDevice: node name is /dev/dri/renderD137
+drmOpenDevice: node name is /dev/dri/renderD138
+drmOpenDevice: node name is /dev/dri/renderD139
+drmOpenDevice: node name is /dev/dri/renderD140
+drmOpenDevice: node name is /dev/dri/renderD141
+drmOpenDevice: node name is /dev/dri/renderD142
+drmOpenDevice: node name is /dev/dri/renderD143
+drmOpenDevice: node name is /dev/dri/renderD128
+drmOpenDevice: open result is 29, (OK)
+drmOpenDevice: node name is /dev/dri/renderD129
+drmOpenDevice: open result is 29, (OK)
+drmOpenDevice: node name is /dev/dri/renderD130
+drmOpenDevice: node name is /dev/dri/renderD131
+drmOpenDevice: node name is /dev/dri/renderD132
+drmOpenDevice: node name is /dev/dri/renderD133
+drmOpenDevice: node name is /dev/dri/renderD134
+drmOpenDevice: node name is /dev/dri/renderD135
+drmOpenDevice: node name is /dev/dri/renderD136
+drmOpenDevice: node name is /dev/dri/renderD137
+drmOpenDevice: node name is /dev/dri/renderD138
+drmOpenDevice: node name is /dev/dri/renderD139
+drmOpenDevice: node name is /dev/dri/renderD140
+drmOpenDevice: node name is /dev/dri/renderD141
+drmOpenDevice: node name is /dev/dri/renderD142
+drmOpenDevice: node name is /dev/dri/renderD143
+drmOpenDevice: node name is /dev/dri/renderD128
+drmOpenDevice: open result is 25, (OK)
+drmOpenDevice: node name is /dev/dri/renderD129
+drmOpenDevice: open result is 25, (OK)
+drmOpenDevice: node name is /dev/dri/renderD130
+drmOpenDevice: node name is /dev/dri/renderD131
+drmOpenDevice: node name is /dev/dri/renderD132
+drmOpenDevice: node name is /dev/dri/renderD133
+drmOpenDevice: node name is /dev/dri/renderD134
+drmOpenDevice: node name is /dev/dri/renderD135
+drmOpenDevice: node name is /dev/dri/renderD136
+drmOpenDevice: node name is /dev/dri/renderD137
+drmOpenDevice: node name is /dev/dri/renderD138
+drmOpenDevice: node name is /dev/dri/renderD139
+drmOpenDevice: node name is /dev/dri/renderD140
+drmOpenDevice: node name is /dev/dri/renderD141
+drmOpenDevice: node name is /dev/dri/renderD142
+drmOpenDevice: node name is /dev/dri/renderD143
+drmOpenDevice: node name is /dev/dri/renderD128
+drmOpenDevice: open result is 25, (OK)
+drmOpenDevice: node name is /dev/dri/renderD129
+drmOpenDevice: open result is 25, (OK)
+drmOpenDevice: node name is /dev/dri/renderD130
+drmOpenDevice: node name is /dev/dri/renderD131
+drmOpenDevice: node name is /dev/dri/renderD132
+drmOpenDevice: node name is /dev/dri/renderD133
+drmOpenDevice: node name is /dev/dri/renderD134
+drmOpenDevice: node name is /dev/dri/renderD135
+drmOpenDevice: node name is /dev/dri/renderD136
+drmOpenDevice: node name is /dev/dri/renderD137
+drmOpenDevice: node name is /dev/dri/renderD138
+drmOpenDevice: node name is /dev/dri/renderD139
+drmOpenDevice: node name is /dev/dri/renderD140
+drmOpenDevice: node name is /dev/dri/renderD141
+drmOpenDevice: node name is /dev/dri/renderD142
+drmOpenDevice: node name is /dev/dri/renderD143
+drmOpenDevice: node name is /dev/dri/renderD128
+drmOpenDevice: open result is 25, (OK)
+drmOpenDevice: node name is /dev/dri/renderD129
+drmOpenDevice: open result is 25, (OK)
+drmOpenDevice: node name is /dev/dri/renderD130
+drmOpenDevice: node name is /dev/dri/renderD131
+drmOpenDevice: node name is /dev/dri/renderD132
+drmOpenDevice: node name is /dev/dri/renderD133
+drmOpenDevice: node name is /dev/dri/renderD134
+drmOpenDevice: node name is /dev/dri/renderD135
+drmOpenDevice: node name is /dev/dri/renderD136
+drmOpenDevice: node name is /dev/dri/renderD137
+drmOpenDevice: node name is /dev/dri/renderD138
+drmOpenDevice: node name is /dev/dri/renderD139
+drmOpenDevice: node name is /dev/dri/renderD140
+drmOpenDevice: node name is /dev/dri/renderD141
+drmOpenDevice: node name is /dev/dri/renderD142
+drmOpenDevice: node name is /dev/dri/renderD143
+drmOpenDevice: node name is /dev/dri/renderD128
+drmOpenDevice: open result is 25, (OK)
+drmOpenDevice: node name is /dev/dri/renderD129
+drmOpenDevice: open result is 25, (OK)
+drmOpenDevice: node name is /dev/dri/renderD130
+drmOpenDevice: node name is /dev/dri/renderD131
+drmOpenDevice: node name is /dev/dri/renderD132
+drmOpenDevice: node name is /dev/dri/renderD133
+drmOpenDevice: node name is /dev/dri/renderD134
+drmOpenDevice: node name is /dev/dri/renderD135
+drmOpenDevice: node name is /dev/dri/renderD136
+drmOpenDevice: node name is /dev/dri/renderD137
+drmOpenDevice: node name is /dev/dri/renderD138
+drmOpenDevice: node name is /dev/dri/renderD139
+drmOpenDevice: node name is /dev/dri/renderD140
+drmOpenDevice: node name is /dev/dri/renderD141
+drmOpenDevice: node name is /dev/dri/renderD142
+drmOpenDevice: node name is /dev/dri/renderD143
+libGL error: failed to create dri screen
+libGL error: failed to load driver: rockchip
+libGL: using driver rockchip for 25
+libGL: Can't open configuration file /etc/drirc: No such file or directory.
+libGL: Can't open configuration file /home/ubuntu/.drirc: No such file or directory.
+libGL: MESA-LOADER: device is not located on the PCI bus
+libGL: using driver rockchip for 25
+libGL: MESA-LOADER: dlopen(/usr/lib/aarch64-linux-gnu/dri/rockchip_dri.so)
+libGL: Can't open configuration file /etc/drirc: No such file or directory.
+libGL: Can't open configuration file /home/ubuntu/.drirc: No such file or directory.
+libGL: Can't open configuration file /etc/drirc: No such file or directory.
+libGL: Can't open configuration file /home/ubuntu/.drirc: No such file or directory.
+libGL: Can't open configuration file /etc/drirc: No such file or directory.
+libGL: Can't open configuration file /home/ubuntu/.drirc: No such file or directory.
+drmOpenDevice: node name is /dev/dri/renderD128
+drmOpenDevice: open result is 28, (OK)
+drmOpenDevice: node name is /dev/dri/renderD129
+drmOpenDevice: open result is 28, (OK)
+drmOpenDevice: node name is /dev/dri/renderD130
+drmOpenDevice: node name is /dev/dri/renderD131
+drmOpenDevice: node name is /dev/dri/renderD132
+drmOpenDevice: node name is /dev/dri/renderD133
+drmOpenDevice: node name is /dev/dri/renderD134
+drmOpenDevice: node name is /dev/dri/renderD135
+drmOpenDevice: node name is /dev/dri/renderD136
+drmOpenDevice: node name is /dev/dri/renderD137
+drmOpenDevice: node name is /dev/dri/renderD138
+drmOpenDevice: node name is /dev/dri/renderD139
+drmOpenDevice: node name is /dev/dri/renderD140
+drmOpenDevice: node name is /dev/dri/renderD141
+drmOpenDevice: node name is /dev/dri/renderD142
+drmOpenDevice: node name is /dev/dri/renderD143
+drmOpenDevice: node name is /dev/dri/renderD128
+drmOpenDevice: open result is 28, (OK)
+drmOpenDevice: node name is /dev/dri/renderD129
+drmOpenDevice: open result is 28, (OK)
+drmOpenDevice: node name is /dev/dri/renderD130
+drmOpenDevice: node name is /dev/dri/renderD131
+drmOpenDevice: node name is /dev/dri/renderD132
+drmOpenDevice: node name is /dev/dri/renderD133
+drmOpenDevice: node name is /dev/dri/renderD134
+drmOpenDevice: node name is /dev/dri/renderD135
+drmOpenDevice: node name is /dev/dri/renderD136
+drmOpenDevice: node name is /dev/dri/renderD137
+drmOpenDevice: node name is /dev/dri/renderD138
+drmOpenDevice: node name is /dev/dri/renderD139
+drmOpenDevice: node name is /dev/dri/renderD140
+drmOpenDevice: node name is /dev/dri/renderD141
+drmOpenDevice: node name is /dev/dri/renderD142
+drmOpenDevice: node name is /dev/dri/renderD143
+drmOpenDevice: node name is /dev/dri/renderD128
+drmOpenDevice: open result is 28, (OK)
+drmOpenDevice: node name is /dev/dri/renderD129
+drmOpenDevice: open result is 28, (OK)
+drmOpenDevice: node name is /dev/dri/renderD130
+drmOpenDevice: node name is /dev/dri/renderD131
+drmOpenDevice: node name is /dev/dri/renderD132
+drmOpenDevice: node name is /dev/dri/renderD133
+drmOpenDevice: node name is /dev/dri/renderD134
+drmOpenDevice: node name is /dev/dri/renderD135
+drmOpenDevice: node name is /dev/dri/renderD136
+drmOpenDevice: node name is /dev/dri/renderD137
+drmOpenDevice: node name is /dev/dri/renderD138
+drmOpenDevice: node name is /dev/dri/renderD139
+drmOpenDevice: node name is /dev/dri/renderD140
+drmOpenDevice: node name is /dev/dri/renderD141
+drmOpenDevice: node name is /dev/dri/renderD142
+drmOpenDevice: node name is /dev/dri/renderD143
+drmOpenDevice: node name is /dev/dri/renderD128
+drmOpenDevice: open result is 28, (OK)
+drmOpenDevice: node name is /dev/dri/renderD129
+drmOpenDevice: open result is 28, (OK)
+drmOpenDevice: node name is /dev/dri/renderD130
+drmOpenDevice: node name is /dev/dri/renderD131
+drmOpenDevice: node name is /dev/dri/renderD132
+drmOpenDevice: node name is /dev/dri/renderD133
+drmOpenDevice: node name is /dev/dri/renderD134
+drmOpenDevice: node name is /dev/dri/renderD135
+drmOpenDevice: node name is /dev/dri/renderD136
+drmOpenDevice: node name is /dev/dri/renderD137
+drmOpenDevice: node name is /dev/dri/renderD138
+drmOpenDevice: node name is /dev/dri/renderD139
+drmOpenDevice: node name is /dev/dri/renderD140
+drmOpenDevice: node name is /dev/dri/renderD141
+drmOpenDevice: node name is /dev/dri/renderD142
+drmOpenDevice: node name is /dev/dri/renderD143
+drmOpenDevice: node name is /dev/dri/renderD128
+drmOpenDevice: open result is 28, (OK)
+drmOpenDevice: node name is /dev/dri/renderD129
+drmOpenDevice: open result is 28, (OK)
+drmOpenDevice: node name is /dev/dri/renderD130
+drmOpenDevice: node name is /dev/dri/renderD131
+drmOpenDevice: node name is /dev/dri/renderD132
+drmOpenDevice: node name is /dev/dri/renderD133
+drmOpenDevice: node name is /dev/dri/renderD134
+drmOpenDevice: node name is /dev/dri/renderD135
+drmOpenDevice: node name is /dev/dri/renderD136
+drmOpenDevice: node name is /dev/dri/renderD137
+drmOpenDevice: node name is /dev/dri/renderD138
+drmOpenDevice: node name is /dev/dri/renderD139
+drmOpenDevice: node name is /dev/dri/renderD140
+drmOpenDevice: node name is /dev/dri/renderD141
+drmOpenDevice: node name is /dev/dri/renderD142
+drmOpenDevice: node name is /dev/dri/renderD143
+drmOpenDevice: node name is /dev/dri/renderD128
+drmOpenDevice: open result is 28, (OK)
+drmOpenDevice: node name is /dev/dri/renderD129
+drmOpenDevice: open result is 28, (OK)
+drmOpenDevice: node name is /dev/dri/renderD130
+drmOpenDevice: node name is /dev/dri/renderD131
+drmOpenDevice: node name is /dev/dri/renderD132
+drmOpenDevice: node name is /dev/dri/renderD133
+drmOpenDevice: node name is /dev/dri/renderD134
+drmOpenDevice: node name is /dev/dri/renderD135
+drmOpenDevice: node name is /dev/dri/renderD136
+drmOpenDevice: node name is /dev/dri/renderD137
+drmOpenDevice: node name is /dev/dri/renderD138
+drmOpenDevice: node name is /dev/dri/renderD139
+drmOpenDevice: node name is /dev/dri/renderD140
+drmOpenDevice: node name is /dev/dri/renderD141
+drmOpenDevice: node name is /dev/dri/renderD142
+drmOpenDevice: node name is /dev/dri/renderD143
+libGL error: failed to create dri screen
+libGL error: failed to load driver: rockchip
+libGL: MESA-LOADER: dlopen(/usr/lib/aarch64-linux-gnu/dri/swrast_dri.so)
+libGL: Can't open configuration file /etc/drirc: No such file or directory.
+libGL: Can't open configuration file /home/ubuntu/.drirc: No such file or directory.
+libGL: Can't open configuration file /etc/drirc: No such file or directory.
+libGL: Can't open configuration file /home/ubuntu/.drirc: No such file or directory.
+libGL: Can't open configuration file /etc/drirc: No such file or directory.
+libGL: Can't open configuration file /home/ubuntu/.drirc: No such file or directory.
+libGL: using driver rockchip for 26
+libGL: Can't open configuration file /etc/drirc: No such file or directory.
+libGL: Can't open configuration file /home/ubuntu/.drirc: No such file or directory.
+libGL: MESA-LOADER: device is not located on the PCI bus
+libGL: using driver rockchip for 26
+libGL: MESA-LOADER: dlopen(/usr/lib/aarch64-linux-gnu/dri/rockchip_dri.so)
+libGL: Can't open configuration file /etc/drirc: No such file or directory.
+libGL: Can't open configuration file /home/ubuntu/.drirc: No such file or directory.
+libGL: Can't open configuration file /etc/drirc: No such file or directory.
+libGL: Can't open configuration file /home/ubuntu/.drirc: No such file or directory.
+libGL: Can't open configuration file /etc/drirc: No such file or directory.
+libGL: Can't open configuration file /home/ubuntu/.drirc: No such file or directory.
+drmOpenDevice: node name is /dev/dri/renderD128
+drmOpenDevice: open result is 30, (OK)
+drmOpenDevice: node name is /dev/dri/renderD129
+drmOpenDevice: open result is 30, (OK)
+drmOpenDevice: node name is /dev/dri/renderD130
+drmOpenDevice: node name is /dev/dri/renderD131
+drmOpenDevice: node name is /dev/dri/renderD132
+drmOpenDevice: node name is /dev/dri/renderD133
+drmOpenDevice: node name is /dev/dri/renderD134
+drmOpenDevice: node name is /dev/dri/renderD135
+drmOpenDevice: node name is /dev/dri/renderD136
+drmOpenDevice: node name is /dev/dri/renderD137
+drmOpenDevice: node name is /dev/dri/renderD138
+drmOpenDevice: node name is /dev/dri/renderD139
+drmOpenDevice: node name is /dev/dri/renderD140
+drmOpenDevice: node name is /dev/dri/renderD141
+drmOpenDevice: node name is /dev/dri/renderD142
+drmOpenDevice: node name is /dev/dri/renderD143
+drmOpenDevice: node name is /dev/dri/renderD128
+drmOpenDevice: open result is 30, (OK)
+drmOpenDevice: node name is /dev/dri/renderD129
+drmOpenDevice: open result is 30, (OK)
+drmOpenDevice: node name is /dev/dri/renderD130
+drmOpenDevice: node name is /dev/dri/renderD131
+drmOpenDevice: node name is /dev/dri/renderD132
+drmOpenDevice: node name is /dev/dri/renderD133
+drmOpenDevice: node name is /dev/dri/renderD134
+drmOpenDevice: node name is /dev/dri/renderD135
+drmOpenDevice: node name is /dev/dri/renderD136
+drmOpenDevice: node name is /dev/dri/renderD137
+drmOpenDevice: node name is /dev/dri/renderD138
+drmOpenDevice: node name is /dev/dri/renderD139
+drmOpenDevice: node name is /dev/dri/renderD140
+drmOpenDevice: node name is /dev/dri/renderD141
+drmOpenDevice: node name is /dev/dri/renderD142
+drmOpenDevice: node name is /dev/dri/renderD143
+drmOpenDevice: node name is /dev/dri/renderD128
+drmOpenDevice: open result is 30, (OK)
+drmOpenDevice: node name is /dev/dri/renderD129
+drmOpenDevice: open result is 30, (OK)
+drmOpenDevice: node name is /dev/dri/renderD130
+drmOpenDevice: node name is /dev/dri/renderD131
+drmOpenDevice: node name is /dev/dri/renderD132
+drmOpenDevice: node name is /dev/dri/renderD133
+drmOpenDevice: node name is /dev/dri/renderD134
+drmOpenDevice: node name is /dev/dri/renderD135
+drmOpenDevice: node name is /dev/dri/renderD136
+drmOpenDevice: node name is /dev/dri/renderD137
+drmOpenDevice: node name is /dev/dri/renderD138
+drmOpenDevice: node name is /dev/dri/renderD139
+drmOpenDevice: node name is /dev/dri/renderD140
+drmOpenDevice: node name is /dev/dri/renderD141
+drmOpenDevice: node name is /dev/dri/renderD142
+drmOpenDevice: node name is /dev/dri/renderD143
+drmOpenDevice: node name is /dev/dri/renderD128
+drmOpenDevice: open result is 30, (OK)
+drmOpenDevice: node name is /dev/dri/renderD129
+drmOpenDevice: open result is 30, (OK)
+drmOpenDevice: node name is /dev/dri/renderD130
+drmOpenDevice: node name is /dev/dri/renderD131
+drmOpenDevice: node name is /dev/dri/renderD132
+drmOpenDevice: node name is /dev/dri/renderD133
+drmOpenDevice: node name is /dev/dri/renderD134
+drmOpenDevice: node name is /dev/dri/renderD135
+drmOpenDevice: node name is /dev/dri/renderD136
+drmOpenDevice: node name is /dev/dri/renderD137
+drmOpenDevice: node name is /dev/dri/renderD138
+drmOpenDevice: node name is /dev/dri/renderD139
+drmOpenDevice: node name is /dev/dri/renderD140
+drmOpenDevice: node name is /dev/dri/renderD141
+drmOpenDevice: node name is /dev/dri/renderD142
+drmOpenDevice: node name is /dev/dri/renderD143
+drmOpenDevice: node name is /dev/dri/renderD128
+drmOpenDevice: open result is 30, (OK)
+drmOpenDevice: node name is /dev/dri/renderD129
+drmOpenDevice: open result is 30, (OK)
+drmOpenDevice: node name is /dev/dri/renderD130
+drmOpenDevice: node name is /dev/dri/renderD131
+drmOpenDevice: node name is /dev/dri/renderD132
+drmOpenDevice: node name is /dev/dri/renderD133
+drmOpenDevice: node name is /dev/dri/renderD134
+drmOpenDevice: node name is /dev/dri/renderD135
+drmOpenDevice: node name is /dev/dri/renderD136
+drmOpenDevice: node name is /dev/dri/renderD137
+drmOpenDevice: node name is /dev/dri/renderD138
+drmOpenDevice: node name is /dev/dri/renderD139
+drmOpenDevice: node name is /dev/dri/renderD140
+drmOpenDevice: node name is /dev/dri/renderD141
+drmOpenDevice: node name is /dev/dri/renderD142
+drmOpenDevice: node name is /dev/dri/renderD143
+drmOpenDevice: node name is /dev/dri/renderD128
+drmOpenDevice: open result is 30, (OK)
+drmOpenDevice: node name is /dev/dri/renderD129
+drmOpenDevice: open result is 30, (OK)
+drmOpenDevice: node name is /dev/dri/renderD130
+drmOpenDevice: node name is /dev/dri/renderD131
+drmOpenDevice: node name is /dev/dri/renderD132
+drmOpenDevice: node name is /dev/dri/renderD133
+drmOpenDevice: node name is /dev/dri/renderD134
+drmOpenDevice: node name is /dev/dri/renderD135
+drmOpenDevice: node name is /dev/dri/renderD136
+drmOpenDevice: node name is /dev/dri/renderD137
+drmOpenDevice: node name is /dev/dri/renderD138
+drmOpenDevice: node name is /dev/dri/renderD139
+drmOpenDevice: node name is /dev/dri/renderD140
+drmOpenDevice: node name is /dev/dri/renderD141
+drmOpenDevice: node name is /dev/dri/renderD142
+drmOpenDevice: node name is /dev/dri/renderD143
+libGL error: failed to create dri screen
+libGL error: failed to load driver: rockchip
+libGL: using driver rockchip for 26
+libGL: Can't open configuration file /etc/drirc: No such file or directory.
+libGL: Can't open configuration file /home/ubuntu/.drirc: No such file or directory.
+libGL: MESA-LOADER: device is not located on the PCI bus
+libGL: using driver rockchip for 26
+libGL: MESA-LOADER: dlopen(/usr/lib/aarch64-linux-gnu/dri/rockchip_dri.so)
+libGL: Can't open configuration file /etc/drirc: No such file or directory.
+libGL: Can't open configuration file /home/ubuntu/.drirc: No such file or directory.
+libGL: Can't open configuration file /etc/drirc: No such file or directory.
+libGL: Can't open configuration file /home/ubuntu/.drirc: No such file or directory.
+libGL: Can't open configuration file /etc/drirc: No such file or directory.
+libGL: Can't open configuration file /home/ubuntu/.drirc: No such file or directory.
+drmOpenDevice: node name is /dev/dri/renderD128
+drmOpenDevice: open result is 30, (OK)
+drmOpenDevice: node name is /dev/dri/renderD129
+drmOpenDevice: open result is 30, (OK)
+drmOpenDevice: node name is /dev/dri/renderD130
+drmOpenDevice: node name is /dev/dri/renderD131
+drmOpenDevice: node name is /dev/dri/renderD132
+drmOpenDevice: node name is /dev/dri/renderD133
+drmOpenDevice: node name is /dev/dri/renderD134
+drmOpenDevice: node name is /dev/dri/renderD135
+drmOpenDevice: node name is /dev/dri/renderD136
+drmOpenDevice: node name is /dev/dri/renderD137
+drmOpenDevice: node name is /dev/dri/renderD138
+drmOpenDevice: node name is /dev/dri/renderD139
+drmOpenDevice: node name is /dev/dri/renderD140
+drmOpenDevice: node name is /dev/dri/renderD141
+drmOpenDevice: node name is /dev/dri/renderD142
+drmOpenDevice: node name is /dev/dri/renderD143
+drmOpenDevice: node name is /dev/dri/renderD128
+drmOpenDevice: open result is 30, (OK)
+drmOpenDevice: node name is /dev/dri/renderD129
+drmOpenDevice: open result is 30, (OK)
+drmOpenDevice: node name is /dev/dri/renderD130
+drmOpenDevice: node name is /dev/dri/renderD131
+drmOpenDevice: node name is /dev/dri/renderD132
+drmOpenDevice: node name is /dev/dri/renderD133
+drmOpenDevice: node name is /dev/dri/renderD134
+drmOpenDevice: node name is /dev/dri/renderD135
+drmOpenDevice: node name is /dev/dri/renderD136
+drmOpenDevice: node name is /dev/dri/renderD137
+drmOpenDevice: node name is /dev/dri/renderD138
+drmOpenDevice: node name is /dev/dri/renderD139
+drmOpenDevice: node name is /dev/dri/renderD140
+drmOpenDevice: node name is /dev/dri/renderD141
+drmOpenDevice: node name is /dev/dri/renderD142
+drmOpenDevice: node name is /dev/dri/renderD143
+drmOpenDevice: node name is /dev/dri/renderD128
+drmOpenDevice: open result is 30, (OK)
+drmOpenDevice: node name is /dev/dri/renderD129
+drmOpenDevice: open result is 30, (OK)
+drmOpenDevice: node name is /dev/dri/renderD130
+drmOpenDevice: node name is /dev/dri/renderD131
+drmOpenDevice: node name is /dev/dri/renderD132
+drmOpenDevice: node name is /dev/dri/renderD133
+drmOpenDevice: node name is /dev/dri/renderD134
+drmOpenDevice: node name is /dev/dri/renderD135
+drmOpenDevice: node name is /dev/dri/renderD136
+drmOpenDevice: node name is /dev/dri/renderD137
+drmOpenDevice: node name is /dev/dri/renderD138
+drmOpenDevice: node name is /dev/dri/renderD139
+drmOpenDevice: node name is /dev/dri/renderD140
+drmOpenDevice: node name is /dev/dri/renderD141
+drmOpenDevice: node name is /dev/dri/renderD142
+drmOpenDevice: node name is /dev/dri/renderD143
+drmOpenDevice: node name is /dev/dri/renderD128
+drmOpenDevice: open result is 30, (OK)
+drmOpenDevice: node name is /dev/dri/renderD129
+drmOpenDevice: open result is 30, (OK)
+drmOpenDevice: node name is /dev/dri/renderD130
+drmOpenDevice: node name is /dev/dri/renderD131
+drmOpenDevice: node name is /dev/dri/renderD132
+drmOpenDevice: node name is /dev/dri/renderD133
+drmOpenDevice: node name is /dev/dri/renderD134
+drmOpenDevice: node name is /dev/dri/renderD135
+drmOpenDevice: node name is /dev/dri/renderD136
+drmOpenDevice: node name is /dev/dri/renderD137
+drmOpenDevice: node name is /dev/dri/renderD138
+drmOpenDevice: node name is /dev/dri/renderD139
+drmOpenDevice: node name is /dev/dri/renderD140
+drmOpenDevice: node name is /dev/dri/renderD141
+drmOpenDevice: node name is /dev/dri/renderD142
+drmOpenDevice: node name is /dev/dri/renderD143
+drmOpenDevice: node name is /dev/dri/renderD128
+drmOpenDevice: open result is 30, (OK)
+drmOpenDevice: node name is /dev/dri/renderD129
+drmOpenDevice: open result is 30, (OK)
+drmOpenDevice: node name is /dev/dri/renderD130
+drmOpenDevice: node name is /dev/dri/renderD131
+drmOpenDevice: node name is /dev/dri/renderD132
+drmOpenDevice: node name is /dev/dri/renderD133
+drmOpenDevice: node name is /dev/dri/renderD134
+drmOpenDevice: node name is /dev/dri/renderD135
+drmOpenDevice: node name is /dev/dri/renderD136
+drmOpenDevice: node name is /dev/dri/renderD137
+drmOpenDevice: node name is /dev/dri/renderD138
+drmOpenDevice: node name is /dev/dri/renderD139
+drmOpenDevice: node name is /dev/dri/renderD140
+drmOpenDevice: node name is /dev/dri/renderD141
+drmOpenDevice: node name is /dev/dri/renderD142
+drmOpenDevice: node name is /dev/dri/renderD143
+drmOpenDevice: node name is /dev/dri/renderD128
+drmOpenDevice: open result is 30, (OK)
+drmOpenDevice: node name is /dev/dri/renderD129
+drmOpenDevice: open result is 30, (OK)
+drmOpenDevice: node name is /dev/dri/renderD130
+drmOpenDevice: node name is /dev/dri/renderD131
+drmOpenDevice: node name is /dev/dri/renderD132
+drmOpenDevice: node name is /dev/dri/renderD133
+drmOpenDevice: node name is /dev/dri/renderD134
+drmOpenDevice: node name is /dev/dri/renderD135
+drmOpenDevice: node name is /dev/dri/renderD136
+drmOpenDevice: node name is /dev/dri/renderD137
+drmOpenDevice: node name is /dev/dri/renderD138
+drmOpenDevice: node name is /dev/dri/renderD139
+drmOpenDevice: node name is /dev/dri/renderD140
+drmOpenDevice: node name is /dev/dri/renderD141
+drmOpenDevice: node name is /dev/dri/renderD142
+drmOpenDevice: node name is /dev/dri/renderD143
+libGL error: failed to create dri screen
+libGL error: failed to load driver: rockchip
+libGL: MESA-LOADER: dlopen(/usr/lib/aarch64-linux-gnu/dri/swrast_dri.so)
+libGL: Can't open configuration file /etc/drirc: No such file or directory.
+libGL: Can't open configuration file /home/ubuntu/.drirc: No such file or directory.
+libGL: Can't open configuration file /etc/drirc: No such file or directory.
+libGL: Can't open configuration file /home/ubuntu/.drirc: No such file or directory.
+[ INFO] [1714116000.175781597]: Stereo is NOT SUPPORTED
+[ INFO] [1714116000.175856531]: OpenGL device: llvmpipe (LLVM 12.0.0, 128 bits)
+[ INFO] [1714116000.175883647]: OpenGl version: 3.1 (GLSL 1.4).
