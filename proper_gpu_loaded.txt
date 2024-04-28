@@ -1,0 +1,71 @@
+LIBGL_DEBUG=verbose rviz2
+Warning: Ignoring XDG_SESSION_TYPE=wayland on Gnome. Use QT_QPA_PLATFORM=wayland to run on Wayland anyway.
+libGL: Can't open configuration file /etc/drirc: No such file or directory.
+libGL: Can't open configuration file /home/greenpi/.drirc: No such file or directory.
+libGL: using driver rockchip for 35
+libGL: Can't open configuration file /etc/drirc: No such file or directory.
+libGL: Can't open configuration file /home/greenpi/.drirc: No such file or directory.
+libGL: MESA-LOADER: device is not located on the PCI bus
+libGL: using driver rockchip for 35
+libGL: MESA-LOADER: dlopen(/usr/lib/aarch64-linux-gnu/dri/rockchip_dri.so)
+libGL: Can't open configuration file /etc/drirc: No such file or directory.
+libGL: Can't open configuration file /home/greenpi/.drirc: No such file or directory.
+libGL: Can't open configuration file /etc/drirc: No such file or directory.
+libGL: Can't open configuration file /home/greenpi/.drirc: No such file or directory.
+drmOpenDevice: node name is /dev/dri/renderD128
+drmOpenDevice: open result is 37, (OK)
+drmOpenDevice: node name is /dev/dri/renderD129
+drmOpenDevice: open result is 37, (OK)
+drmOpenDevice: node name is /dev/dri/renderD130
+drmOpenDevice: node name is /dev/dri/renderD131
+drmOpenDevice: node name is /dev/dri/renderD132
+drmOpenDevice: node name is /dev/dri/renderD133
+drmOpenDevice: node name is /dev/dri/renderD134
+drmOpenDevice: node name is /dev/dri/renderD135
+drmOpenDevice: node name is /dev/dri/renderD136
+drmOpenDevice: node name is /dev/dri/renderD137
+drmOpenDevice: node name is /dev/dri/renderD138
+drmOpenDevice: node name is /dev/dri/renderD139
+drmOpenDevice: node name is /dev/dri/renderD140
+drmOpenDevice: node name is /dev/dri/renderD141
+drmOpenDevice: node name is /dev/dri/renderD142
+drmOpenDevice: node name is /dev/dri/renderD143
+libGL: Can't open configuration file /etc/drirc: No such file or directory.
+libGL: Can't open configuration file /home/greenpi/.drirc: No such file or directory.
+libGL: Using DRI3 for screen 0
+libGL: Can't open configuration file /etc/drirc: No such file or directory.
+libGL: Can't open configuration file /home/greenpi/.drirc: No such file or directory.
+libGL: using driver rockchip for 40
+libGL: Can't open configuration file /etc/drirc: No such file or directory.
+libGL: Can't open configuration file /home/greenpi/.drirc: No such file or directory.
+libGL: MESA-LOADER: device is not located on the PCI bus
+libGL: using driver rockchip for 40
+libGL: MESA-LOADER: dlopen(/usr/lib/aarch64-linux-gnu/dri/rockchip_dri.so)
+libGL: Can't open configuration file /etc/drirc: No such file or directory.
+libGL: Can't open configuration file /home/greenpi/.drirc: No such file or directory.
+libGL: Can't open configuration file /etc/drirc: No such file or directory.
+libGL: Can't open configuration file /home/greenpi/.drirc: No such file or directory.
+drmOpenDevice: node name is /dev/dri/renderD128
+drmOpenDevice: open result is 42, (OK)
+drmOpenDevice: node name is /dev/dri/renderD129
+drmOpenDevice: open result is 42, (OK)
+drmOpenDevice: node name is /dev/dri/renderD130
+drmOpenDevice: node name is /dev/dri/renderD131
+drmOpenDevice: node name is /dev/dri/renderD132
+drmOpenDevice: node name is /dev/dri/renderD133
+drmOpenDevice: node name is /dev/dri/renderD134
+drmOpenDevice: node name is /dev/dri/renderD135
+drmOpenDevice: node name is /dev/dri/renderD136
+drmOpenDevice: node name is /dev/dri/renderD137
+drmOpenDevice: node name is /dev/dri/renderD138
+drmOpenDevice: node name is /dev/dri/renderD139
+drmOpenDevice: node name is /dev/dri/renderD140
+drmOpenDevice: node name is /dev/dri/renderD141
+drmOpenDevice: node name is /dev/dri/renderD142
+drmOpenDevice: node name is /dev/dri/renderD143
+libGL: Can't open configuration file /etc/drirc: No such file or directory.
+libGL: Can't open configuration file /home/greenpi/.drirc: No such file or directory.
+libGL: Using DRI3 for screen 0
+[INFO] [1714310698.059228456] [rviz2]: Stereo is NOT SUPPORTED
+[INFO] [1714310698.059448080] [rviz2]: OpenGl version: 3.3 (GLSL 3.3)
+[INFO] [1714310698.121825397] [rviz2]: Stereo is NOT SUPPORTE
