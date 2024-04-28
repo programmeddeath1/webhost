@@ -1,0 +1,50 @@
+ x11docker --name delta_app --share /home/greenpi/app/delta_app_master --network=host --gpu -- --privileged delta-noetic glxgears
+x11docker WARNING: User greenpi is member of group docker.
+  That allows unprivileged processes on host to gain root privileges.
+
+x11docker note: Using X server option --xpra-xwayland
+
+x11docker note: Option --xpra-xwayland: Enabling option --xtest to allow xpra access.
+
+x11docker note: Option --xpra-xwayland: If you encounter issues with xpra,
+  you can try --nxagent instead.
+  Rather use xpra from www.xpra.org than from distribution repositories.
+
+x11docker WARNING: Option --gpu=direct degrades container isolation.
+  Container gains access to GPU hardware.
+  This allows reading host window content (palinopsia leak)
+  and GPU rootkits (compare proof of concept: jellyfish).
+  An alternative is --gpu=iglx that works with --xorg only.
+
+x11docker WARNING: Option --network=host severely degrades
+  container isolation. Network namespacing is disabled.
+  Container shares host network stack.
+  Spying on network traffic may be possible.
+  Access to host X server :0 may be possible
+  through abstract unix socket.
+
+x11docker note: Option -I, --network: The container is able to provide
+  access to X server :108 (--xpra-xwayland) to the entire world.
+
+x11docker WARNING: Found custom CUSTOM_RUN_OPTIONS.
+  x11docker will add them to 'docker run' command without
+  a serious check for validity or security. Found options:
+   --privileged
+
+x11docker WARNING: Found option --privileged
+  in CUSTOM_RUN_OPTIONS. That is A VERY BAD IDEA.
+  A privileged setup allows unrestricted access from container to host.
+  Malicious applications can cause arbitrary harm.
+
+x11docker WARNING: Sharing device file: /dev/dri/card0
+
+x11docker WARNING: Sharing device file: /dev/dri/card1
+
+x11docker WARNING: Sharing device file: /dev/dri/renderD128
+
+x11docker WARNING: Sharing device file: /dev/dri/renderD129
+
+libGL error: failed to create dri screen
+libGL error: failed to load driver: rockchip
+1814 frames in 5.0 seconds = 362.588 FPS
+X connection to :108 broken (explicit kill or server shutdown).
