@@ -1,0 +1,340 @@
+./build_with_ros.sh  >> build_output.txt
+862 INFO: PyInstaller: 6.6.0, contrib hooks: 2024.6
+862 INFO: Python: 3.10.12
+897 INFO: Platform: Linux-5.10.0-1004-rockchip-aarch64-with-glibc2.35
+922 INFO: Removing temporary files and cleaning cache in /home/greenpi/.cache/pyinstaller
+996 INFO: Extending PYTHONPATH with paths
+['/home/greenpi/app/main_robo_app/src/robo_gui',
+ '/home/greenpi/noetic_ws/install_isolated/lib/python3/dist-packages',
+ '/home/greenpi/noetic_ws/devel_isolated/lib/python3/dist-packages',
+ '/home/greenpi/app/app_binaries/AppDir/src/devel/lib/python3/dist-packages',
+ '/home/greenpi/app/rosserial/devel/lib/python3/dist-packages',
+ '/home/greenpi/noetic_ws/devel_isolated/xacro/lib/python3/dist-packages',
+ '/home/greenpi/noetic_ws/devel_isolated/rqt_rviz/lib/python3/dist-packages',
+ '/home/greenpi/noetic_ws/devel_isolated/rviz/lib/python3/dist-packages',
+ '/home/greenpi/noetic_ws/devel_isolated/turtle_actionlib/lib/python3/dist-packages',
+ '/home/greenpi/noetic_ws/devel_isolated/turtlesim/lib/python3/dist-packages',
+ '/home/greenpi/noetic_ws/devel_isolated/tf_conversions/lib/python3/dist-packages',
+ '/home/greenpi/noetic_ws/devel_isolated/tf2_kdl/lib/python3/dist-packages',
+ '/home/greenpi/noetic_ws/devel_isolated/laser_geometry/lib/python3/dist-packages',
+ '/home/greenpi/noetic_ws/devel_isolated/interactive_markers/lib/python3/dist-packages',
+ '/home/greenpi/noetic_ws/devel_isolated/tf2_geometry_msgs/lib/python3/dist-packages',
+ '/home/greenpi/noetic_ws/devel_isolated/tf/lib/python3/dist-packages',
+ '/home/greenpi/noetic_ws/devel_isolated/tf2_ros/lib/python3/dist-packages',
+ '/home/greenpi/noetic_ws/devel_isolated/stereo_msgs/lib/python3/dist-packages',
+ '/home/greenpi/noetic_ws/devel_isolated/rqt_image_view/lib/python3/dist-packages',
+ '/home/greenpi/noetic_ws/devel_isolated/map_msgs/lib/python3/dist-packages',
+ '/home/greenpi/noetic_ws/devel_isolated/cv_bridge/lib/python3/dist-packages',
+ '/home/greenpi/noetic_ws/devel_isolated/sensor_msgs/lib/python3/dist-packages',
+ '/home/greenpi/noetic_ws/devel_isolated/rqt_launch/lib/python3/dist-packages',
+ '/home/greenpi/noetic_ws/devel_isolated/roswtf/lib/python3/dist-packages',
+ '/home/greenpi/noetic_ws/devel_isolated/nodelet_topic_tools/lib/python3/dist-packages',
+ '/home/greenpi/noetic_ws/devel_isolated/diagnostic_analysis/lib/python3/dist-packages',
+ '/home/greenpi/noetic_ws/devel_isolated/actionlib_tutorials/lib/python3/dist-packages',
+ '/home/greenpi/noetic_ws/devel_isolated/actionlib/lib/python3/dist-packages',
+ '/home/greenpi/noetic_ws/devel_isolated/rosbag/lib/python3/dist-packages',
+ '/home/greenpi/noetic_ws/devel_isolated/topic_tools/lib/python3/dist-packages',
+ '/home/greenpi/noetic_ws/devel_isolated/tf2_py/lib/python3/dist-packages',
+ '/home/greenpi/noetic_ws/devel_isolated/smach_ros/lib/python3/dist-packages',
+ '/home/greenpi/noetic_ws/devel_isolated/rqt_reconfigure/lib/python3/dist-packages',
+ '/home/greenpi/noetic_ws/devel_isolated/rqt_gui_py/lib/python3/dist-packages',
+ '/home/greenpi/noetic_ws/devel_isolated/rostopic/lib/python3/dist-packages',
+ '/home/greenpi/noetic_ws/devel_isolated/rospy_tutorials/lib/python3/dist-packages',
+ '/home/greenpi/noetic_ws/devel_isolated/rosnode/lib/python3/dist-packages',
+ '/home/greenpi/noetic_ws/devel_isolated/rosmsg/lib/python3/dist-packages',
+ '/home/greenpi/noetic_ws/devel_isolated/message_filters/lib/python3/dist-packages',
+ '/home/greenpi/noetic_ws/devel_isolated/joint_state_publisher/lib/python3/dist-packages',
+ '/home/greenpi/noetic_ws/devel_isolated/dynamic_reconfigure/lib/python3/dist-packages',
+ '/home/greenpi/noetic_ws/devel_isolated/diagnostic_common_diagnostics/lib/python3/dist-packages',
+ '/home/greenpi/noetic_ws/devel_isolated/diagnostic_updater/lib/python3/dist-packages',
+ '/home/greenpi/noetic_ws/devel_isolated/roscpp_tutorials/lib/python3/dist-packages',
+ '/home/greenpi/noetic_ws/devel_isolated/nodelet/lib/python3/dist-packages',
+ '/home/greenpi/noetic_ws/devel_isolated/bondpy/lib/python3/dist-packages',
+ '/home/greenpi/noetic_ws/devel_isolated/roscpp/lib/python3/dist-packages',
+ '/home/greenpi/noetic_ws/devel_isolated/visualization_msgs/lib/python3/dist-packages',
+ '/home/greenpi/noetic_ws/devel_isolated/control_msgs/lib/python3/dist-packages',
+ '/home/greenpi/noetic_ws/devel_isolated/trajectory_msgs/lib/python3/dist-packages',
+ '/home/greenpi/noetic_ws/devel_isolated/tf2_msgs/lib/python3/dist-packages',
+ '/home/greenpi/noetic_ws/devel_isolated/std_srvs/lib/python3/dist-packages',
+ '/home/greenpi/noetic_ws/devel_isolated/smach_msgs/lib/python3/dist-packages',
+ '/home/greenpi/noetic_ws/devel_isolated/shape_msgs/lib/python3/dist-packages',
+ '/home/greenpi/noetic_ws/devel_isolated/rqt_py_common/lib/python3/dist-packages',
+ '/home/greenpi/noetic_ws/devel_isolated/rosgraph_msgs/lib/python3/dist-packages',
+ '/home/greenpi/noetic_ws/devel_isolated/nav_msgs/lib/python3/dist-packages',
+ '/home/greenpi/noetic_ws/devel_isolated/geometry_msgs/lib/python3/dist-packages',
+ '/home/greenpi/noetic_ws/devel_isolated/diagnostic_msgs/lib/python3/dist-packages',
+ '/home/greenpi/noetic_ws/devel_isolated/bond/lib/python3/dist-packages',
+ '/home/greenpi/noetic_ws/devel_isolated/actionlib_msgs/lib/python3/dist-packages',
+ '/home/greenpi/noetic_ws/devel_isolated/std_msgs/lib/python3/dist-packages',
+ '/home/greenpi/noetic_ws/devel_isolated/smclib/lib/python3/dist-packages',
+ '/home/greenpi/noetic_ws/devel_isolated/smach/lib/python3/dist-packages',
+ '/home/greenpi/noetic_ws/devel_isolated/rqt_web/lib/python3/dist-packages',
+ '/home/greenpi/noetic_ws/devel_isolated/rqt_topic/lib/python3/dist-packages',
+ '/home/greenpi/noetic_ws/devel_isolated/rqt_top/lib/python3/dist-packages',
+ '/home/greenpi/noetic_ws/devel_isolated/rqt_tf_tree/lib/python3/dist-packages',
+ '/home/greenpi/noetic_ws/devel_isolated/rqt_srv/lib/python3/dist-packages',
+ '/home/greenpi/noetic_ws/devel_isolated/rqt_shell/lib/python3/dist-packages',
+ '/home/greenpi/noetic_ws/devel_isolated/rqt_service_caller/lib/python3/dist-packages',
+ '/home/greenpi/noetic_ws/devel_isolated/rqt_runtime_monitor/lib/python3/dist-packages',
+ '/home/greenpi/noetic_ws/devel_isolated/rqt_robot_steering/lib/python3/dist-packages',
+ '/home/greenpi/noetic_ws/devel_isolated/rqt_robot_monitor/lib/python3/dist-packages',
+ '/home/greenpi/noetic_ws/devel_isolated/rqt_robot_dashboard/lib/python3/dist-packages',
+ '/home/greenpi/noetic_ws/devel_isolated/rqt_py_console/lib/python3/dist-packages',
+ '/home/greenpi/noetic_ws/devel_isolated/rqt_publisher/lib/python3/dist-packages',
+ '/home/greenpi/noetic_ws/devel_isolated/rqt_pose_view/lib/python3/dist-packages',
+ '/home/greenpi/noetic_ws/devel_isolated/rqt_plot/lib/python3/dist-packages',
+ '/home/greenpi/noetic_ws/devel_isolated/rqt_nav_view/lib/python3/dist-packages',
+ '/home/greenpi/noetic_ws/devel_isolated/rqt_msg/lib/python3/dist-packages',
+ '/home/greenpi/noetic_ws/devel_isolated/rqt_moveit/lib/python3/dist-packages',
+ '/home/greenpi/noetic_ws/devel_isolated/rqt_logger_level/lib/python3/dist-packages',
+ '/home/greenpi/noetic_ws/devel_isolated/rqt_gui/lib/python3/dist-packages',
+ '/home/greenpi/noetic_ws/devel_isolated/rqt_graph/lib/python3/dist-packages',
+ '/home/greenpi/noetic_ws/devel_isolated/rqt_dep/lib/python3/dist-packages',
+ '/home/greenpi/noetic_ws/devel_isolated/rqt_console/lib/python3/dist-packages',
+ '/home/greenpi/noetic_ws/devel_isolated/rqt_bag_plugins/lib/python3/dist-packages',
+ '/home/greenpi/noetic_ws/devel_isolated/rqt_bag/lib/python3/dist-packages',
+ '/home/greenpi/noetic_ws/devel_isolated/rqt_action/lib/python3/dist-packages',
+ '/home/greenpi/noetic_ws/devel_isolated/rostest/lib/python3/dist-packages',
+ '/home/greenpi/noetic_ws/devel_isolated/roslz4/lib/python3/dist-packages',
+ '/home/greenpi/noetic_ws/devel_isolated/resource_retriever/lib/python3/dist-packages',
+ '/home/greenpi/noetic_ws/devel_isolated/qt_gui_cpp/lib/python3/dist-packages',
+ '/home/greenpi/noetic_ws/devel_isolated/angles/lib/python3/dist-packages',
+ '/home/greenpi/noetic_ws/devel_isolated/rosunit/lib/python3/dist-packages',
+ '/home/greenpi/noetic_ws/devel_isolated/roslaunch/lib/python3/dist-packages',
+ '/home/greenpi/noetic_ws/devel_isolated/python_qt_binding/lib/python3/dist-packages',
+ '/home/greenpi/noetic_ws/devel_isolated/rosservice/lib/python3/dist-packages',
+ '/home/greenpi/noetic_ws/devel_isolated/rospy/lib/python3/dist-packages',
+ '/home/greenpi/noetic_ws/devel_isolated/rosparam/lib/python3/dist-packages',
+ '/home/greenpi/noetic_ws/devel_isolated/roslib/lib/python3/dist-packages',
+ '/home/greenpi/noetic_ws/devel_isolated/rosmaster/lib/python3/dist-packages',
+ '/home/greenpi/noetic_ws/devel_isolated/rosmake/lib/python3/dist-packages',
+ '/home/greenpi/noetic_ws/devel_isolated/roslint/lib/python3/dist-packages',
+ '/home/greenpi/noetic_ws/devel_isolated/rosgraph/lib/python3/dist-packages',
+ '/home/greenpi/noetic_ws/devel_isolated/roscreate/lib/python3/dist-packages',
+ '/home/greenpi/noetic_ws/devel_isolated/rosclean/lib/python3/dist-packages',
+ '/home/greenpi/noetic_ws/devel_isolated/rosboost_cfg/lib/python3/dist-packages',
+ '/home/greenpi/noetic_ws/devel_isolated/qt_gui_py_common/lib/python3/dist-packages',
+ '/home/greenpi/noetic_ws/devel_isolated/qt_gui/lib/python3/dist-packages',
+ '/home/greenpi/noetic_ws/devel_isolated/qt_dotgraph/lib/python3/dist-packages',
+ '/home/greenpi/noetic_ws/devel_isolated/joint_state_publisher_gui/lib/python3/dist-packages',
+ '/home/greenpi/noetic_ws/devel_isolated/genpy/lib/python3/dist-packages',
+ '/home/greenpi/noetic_ws/devel_isolated/gennodejs/lib/python3/dist-packages',
+ '/home/greenpi/noetic_ws/devel_isolated/genlisp/lib/python3/dist-packages',
+ '/home/greenpi/noetic_ws/devel_isolated/geneus/lib/python3/dist-packages',
+ '/home/greenpi/noetic_ws/devel_isolated/gencpp/lib/python3/dist-packages',
+ '/home/greenpi/noetic_ws/devel_isolated/genmsg/lib/python3/dist-packages',
+ '/home/greenpi/noetic_ws/devel_isolated/catkin/lib/python3/dist-packages',
+ '/usr/lib/python310.zip',
+ '/usr/lib/python3.10',
+ '/usr/lib/python3.10/lib-dynload',
+ '/home/greenpi/.local/lib/python3.10/site-packages',
+ '/usr/local/lib/python3.10/dist-packages',
+ '/usr/lib/python3/dist-packages',
+ '/usr/lib/python3.10/dist-packages',
+ '/home/greenpi/noetic_ws/install_isolated/lib/python3/dist-packages',
+ '/home/greenpi/noetic_ws/devel_isolated/lib/python3/dist-packages']
+3011 INFO: Appending 'binaries' from .spec
+3014 INFO: Appending 'datas' from .spec
+3025 INFO: checking Analysis
+3025 INFO: Building Analysis because Analysis-00.toc is non existent
+3025 INFO: Running Analysis Analysis-00.toc
+3025 INFO: Target bytecode optimization level: 0
+3026 INFO: Initializing module dependency graph...
+3026 INFO: Caching module graph hooks...
+3069 INFO: Analyzing base_library.zip ...
+4875 INFO: Loading module hook 'hook-heapq.py' from '/home/greenpi/.local/lib/python3.10/site-packages/PyInstaller/hooks'...
+4978 INFO: Loading module hook 'hook-encodings.py' from '/home/greenpi/.local/lib/python3.10/site-packages/PyInstaller/hooks'...
+7166 INFO: Loading module hook 'hook-pickle.py' from '/home/greenpi/.local/lib/python3.10/site-packages/PyInstaller/hooks'...
+8768 INFO: Caching module dependency graph...
+10047 INFO: Looking for Python shared library...
+10443 INFO: Using Python shared library: /lib/aarch64-linux-gnu/libpython3.10.so.1.0
+10444 INFO: Analyzing /home/greenpi/app/main_robo_app/src/robo_gui/main.py
+10632 INFO: Loading module hook 'hook-PyQt5.py' from '/home/greenpi/.local/lib/python3.10/site-packages/PyInstaller/hooks'...
+11020 INFO: Loading module hook 'hook-PyQt5.QtCore.py' from '/home/greenpi/.local/lib/python3.10/site-packages/PyInstaller/hooks'...
+11333 INFO: Loading module hook 'hook-PyQt5.QtGui.py' from '/home/greenpi/.local/lib/python3.10/site-packages/PyInstaller/hooks'...
+14511 INFO: Loading module hook 'hook-PyQt5.QtWidgets.py' from '/home/greenpi/.local/lib/python3.10/site-packages/PyInstaller/hooks'...
+14854 INFO: Loading module hook 'hook-PyQt5.uic.py' from '/home/greenpi/.local/lib/python3.10/site-packages/PyInstaller/hooks'...
+15216 INFO: Processing pre-find module path hook PyQt5.uic.port_v2 from '/home/greenpi/.local/lib/python3.10/site-packages/PyInstaller/hooks/pre_find_module_path/hook-PyQt5.uic.port_v2.py'.
+15306 INFO: Loading module hook 'hook-xml.py' from '/home/greenpi/.local/lib/python3.10/site-packages/PyInstaller/hooks'...
+15327 INFO: Loading module hook 'hook-xml.etree.cElementTree.py' from '/home/greenpi/.local/lib/python3.10/site-packages/PyInstaller/hooks'...
+15515 INFO: Loading module hook 'hook-numpy.py' from '/home/greenpi/.local/lib/python3.10/site-packages/numpy/_pyinstaller'...
+16221 INFO: Loading module hook 'hook-difflib.py' from '/home/greenpi/.local/lib/python3.10/site-packages/PyInstaller/hooks'...
+16574 INFO: Loading module hook 'hook-multiprocessing.util.py' from '/home/greenpi/.local/lib/python3.10/site-packages/PyInstaller/hooks'...
+17775 INFO: Loading module hook 'hook-platform.py' from '/home/greenpi/.local/lib/python3.10/site-packages/PyInstaller/hooks'...
+18280 INFO: Loading module hook 'hook-sysconfig.py' from '/home/greenpi/.local/lib/python3.10/site-packages/PyInstaller/hooks'...
+18558 INFO: Loading module hook 'hook-psutil.py' from '/home/greenpi/.local/lib/python3.10/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks'...
+20568 INFO: Loading module hook 'hook-cv2.py' from '/home/greenpi/.local/lib/python3.10/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks'...
+21998 INFO: Loading module hook 'hook-pandas.py' from '/home/greenpi/.local/lib/python3.10/site-packages/PyInstaller/hooks'...
+25051 INFO: Loading module hook 'hook-pytz.py' from '/home/greenpi/.local/lib/python3.10/site-packages/PyInstaller/hooks'...
+25061 INFO: Loading module hook 'hook-zoneinfo.py' from '/home/greenpi/.local/lib/python3.10/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks'...
+25375 INFO: Loading module hook 'hook-pkg_resources.py' from '/home/greenpi/.local/lib/python3.10/site-packages/PyInstaller/hooks'...
+29574 INFO: Loading module hook 'hook-scipy.py' from '/home/greenpi/.local/lib/python3.10/site-packages/PyInstaller/hooks'...
+30467 INFO: Loading module hook 'hook-torch.py' from '/home/greenpi/.local/lib/python3.10/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks'...
+4245 WARNING: Failed to collect submodules for 'torch.utils.tensorboard' because importing 'torch.utils.tensorboard' raised: ModuleNotFoundError: No module named 'tensorboard'
+/usr/lib/python3.10/tempfile.py:999: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tmpg2jv1izi'>
+  _warnings.warn(warn_message, ResourceWarning)
+42610 INFO: hook-torch: inferred hidden imports for CUDA libraries: []
+42612 INFO: hook-torch: raising recursion limit to 5000
+43592 INFO: Loading module hook 'hook-sympy.py' from '/home/greenpi/.local/lib/python3.10/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks'...
+45670 INFO: Loading module hook 'hook-matplotlib.py' from '/home/greenpi/.local/lib/python3.10/site-packages/PyInstaller/hooks'...
+46414 INFO: Loading module hook 'hook-packaging.py' from '/home/greenpi/.local/lib/python3.10/site-packages/PyInstaller/hooks'...
+46495 INFO: Processing pre-safe import module hook gi from '/home/greenpi/.local/lib/python3.10/site-packages/PyInstaller/hooks/pre_safe_import_module/hook-gi.py'.
+46674 INFO: Loading module hook 'hook-gi.py' from '/home/greenpi/.local/lib/python3.10/site-packages/PyInstaller/hooks'...
+46723 INFO: Processing pre-safe import module hook gi.repository.GLib from '/home/greenpi/.local/lib/python3.10/site-packages/PyInstaller/hooks/pre_safe_import_module/hook-gi.repository.GLib.py'.
+46724 INFO: Loading module hook 'hook-gi.repository.GLib.py' from '/home/greenpi/.local/lib/python3.10/site-packages/PyInstaller/hooks'...
+46828 INFO: Loading module hook 'hook-PIL.py' from '/home/greenpi/.local/lib/python3.10/site-packages/PyInstaller/hooks'...
+46910 INFO: Loading module hook 'hook-PIL.Image.py' from '/home/greenpi/.local/lib/python3.10/site-packages/PyInstaller/hooks'...
+47750 INFO: Loading module hook 'hook-xml.dom.domreg.py' from '/home/greenpi/.local/lib/python3.10/site-packages/PyInstaller/hooks'...
+48806 INFO: Loading module hook 'hook-PIL.ImageFilter.py' from '/home/greenpi/.local/lib/python3.10/site-packages/PyInstaller/hooks'...
+49955 INFO: Loading module hook 'hook-matplotlib.backends.py' from '/home/greenpi/.local/lib/python3.10/site-packages/PyInstaller/hooks'...
+52633 INFO: Processing pre-safe import module hook six.moves from '/home/greenpi/.local/lib/python3.10/site-packages/PyInstaller/hooks/pre_safe_import_module/hook-six.moves.py'.
+54809 INFO: Loading module hook 'hook-certifi.py' from '/home/greenpi/.local/lib/python3.10/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks'...
+68269 INFO: Loading module hook 'hook-scipy.linalg.py' from '/home/greenpi/.local/lib/python3.10/site-packages/PyInstaller/hooks'...
+68410 INFO: Loading module hook 'hook-scipy.special._ufuncs.py' from '/home/greenpi/.local/lib/python3.10/site-packages/PyInstaller/hooks'...
+68527 INFO: Loading module hook 'hook-scipy.special._ellip_harm_2.py' from '/home/greenpi/.local/lib/python3.10/site-packages/PyInstaller/hooks'...
+70059 INFO: Loading module hook 'hook-scipy.sparse.csgraph.py' from '/home/greenpi/.local/lib/python3.10/site-packages/PyInstaller/hooks'...
+71780 INFO: Loading module hook 'hook-scipy.spatial.transform.rotation.py' from '/home/greenpi/.local/lib/python3.10/site-packages/PyInstaller/hooks'...
+76009 INFO: Loading module hook 'hook-lxml.py' from '/home/greenpi/.local/lib/python3.10/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks'...
+76920 INFO: Loading module hook 'hook-lxml.etree.py' from '/home/greenpi/.local/lib/python3.10/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks'...
+78803 INFO: Loading module hook 'hook-sqlite3.py' from '/home/greenpi/.local/lib/python3.10/site-packages/PyInstaller/hooks'...
+84289 INFO: Loading module hook 'hook-pygraphviz.py' from '/home/greenpi/.local/lib/python3.10/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks'...
+87711 INFO: Loading module hook 'hook-pandas.io.formats.style.py' from '/home/greenpi/.local/lib/python3.10/site-packages/PyInstaller/hooks'...
+94138 INFO: Loading module hook 'hook-pandas.io.clipboard.py' from '/home/greenpi/.local/lib/python3.10/site-packages/PyInstaller/hooks'...
+94266 INFO: Loading module hook 'hook-pandas.plotting.py' from '/home/greenpi/.local/lib/python3.10/site-packages/PyInstaller/hooks'...
+96682 INFO: Loading module hook 'hook-torchvision.py' from '/home/greenpi/.local/lib/python3.10/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks'...
+96835 INFO: Loading module hook 'hook-torchvision.io.image.py' from '/home/greenpi/.local/lib/python3.10/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks'...
+98368 INFO: Loading module hook 'hook-charset_normalizer.py' from '/home/greenpi/.local/lib/python3.10/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks'...
+99900 INFO: Loading module hook 'hook-cryptography.py' from '/home/greenpi/.local/lib/python3.10/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks'...
+103221 INFO: Loading module hook 'hook-bcrypt.py' from '/home/greenpi/.local/lib/python3.10/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks'...
+103985 INFO: Loading module hook 'hook-scipy.io.matlab.py' from '/home/greenpi/.local/lib/python3.10/site-packages/PyInstaller/hooks'...
+109036 INFO: Loading module hook 'hook-jinja2.py' from '/home/greenpi/.local/lib/python3.10/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks'...
+113604 INFO: Loading module hook 'hook-setuptools.py' from '/home/greenpi/.local/lib/python3.10/site-packages/PyInstaller/hooks'...
+116392 INFO: Processing pre-safe import module hook distutils from '/home/greenpi/.local/lib/python3.10/site-packages/PyInstaller/hooks/pre_safe_import_module/hook-distutils.py'.
+116393 INFO: Processing pre-find module path hook distutils from '/home/greenpi/.local/lib/python3.10/site-packages/PyInstaller/hooks/pre_find_module_path/hook-distutils.py'.
+116899 INFO: Loading module hook 'hook-distutils.py' from '/home/greenpi/.local/lib/python3.10/site-packages/PyInstaller/hooks'...
+116987 INFO: Loading module hook 'hook-distutils.util.py' from '/home/greenpi/.local/lib/python3.10/site-packages/PyInstaller/hooks'...
+117229 INFO: Loading module hook 'hook-setuptools.msvc.py' from '/home/greenpi/.local/lib/python3.10/site-packages/PyInstaller/hooks'...
+117265 INFO: Loading module hook 'hook-importlib_metadata.py' from '/home/greenpi/.local/lib/python3.10/site-packages/PyInstaller/hooks'...
+118082 INFO: Processing pre-safe import module hook win32com from '/home/greenpi/.local/lib/python3.10/site-packages/_pyinstaller_hooks_contrib/hooks/pre_safe_import_module/hook-win32com.py'.
+119402 INFO: Loading module hook 'hook-httplib2.py' from '/home/greenpi/.local/lib/python3.10/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks'...
+119760 INFO: Loading module hook 'hook-keyring.py' from '/home/greenpi/.local/lib/python3.10/site-packages/PyInstaller/hooks'...
+130996 INFO: Loading module hook 'hook-scipy.stats._stats.py' from '/home/greenpi/.local/lib/python3.10/site-packages/PyInstaller/hooks'...
+132548 INFO: Loading module hook 'hook-lz4.py' from '/home/greenpi/.local/lib/python3.10/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks'...
+142707 INFO: Loading module hook 'hook-sklearn.py' from '/home/greenpi/.local/lib/python3.10/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks'...
+142918 INFO: Loading module hook 'hook-sklearn.utils.py' from '/home/greenpi/.local/lib/python3.10/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks'...
+143753 INFO: Loading module hook 'hook-sklearn.metrics.py' from '/home/greenpi/.local/lib/python3.10/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks'...
+147455 INFO: Loading module hook 'hook-sklearn.metrics.cluster.py' from '/home/greenpi/.local/lib/python3.10/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks'...
+147833 INFO: Loading module hook 'hook-sklearn.cluster.py' from '/home/greenpi/.local/lib/python3.10/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks'...
+147901 INFO: Loading module hook 'hook-sklearn.metrics.pairwise.py' from '/home/greenpi/.local/lib/python3.10/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks'...
+148573 INFO: Loading module hook 'hook-sklearn.neighbors.py' from '/home/greenpi/.local/lib/python3.10/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks'...
+148703 INFO: Loading module hook 'hook-sklearn.linear_model.py' from '/home/greenpi/.local/lib/python3.10/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks'...
+150657 INFO: Loading module hook 'hook-wcwidth.py' from '/home/greenpi/.local/lib/python3.10/site-packages/PyInstaller/hooks'...
+151189 INFO: Loading module hook 'hook-regex.py' from '/home/greenpi/.local/lib/python3.10/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks'...
+151927 INFO: Processing pre-safe import module hook tensorflow from '/home/greenpi/.local/lib/python3.10/site-packages/_pyinstaller_hooks_contrib/hooks/pre_safe_import_module/hook-tensorflow.py'.
+153181 INFO: Loading module hook 'hook-pygments.py' from '/home/greenpi/.local/lib/python3.10/site-packages/PyInstaller/hooks'...
+156966 INFO: Analyzing hidden import 'sensor_msgs'
+156971 INFO: Analyzing hidden import 'ultralytics'
+161252 INFO: Loading module hook 'hook-yt_dlp.py' from '/home/greenpi/.local/lib/python3.10/site-packages/yt_dlp/__pyinstaller'...
+403 WARNING: Failed to collect submodules for 'urllib3.contrib.emscripten' because importing 'urllib3.contrib.emscripten' raised: ModuleNotFoundError: No module named 'js'
+163749 WARNING: collect_data_files - skipping data collection for module 'curl_cffi' as it is not a package.
+164925 INFO: Loading module hook 'hook-websockets.py' from '/home/greenpi/.local/lib/python3.10/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks'...
+166257 INFO: Loading module hook 'hook-Cryptodome.py' from '/home/greenpi/.local/lib/python3.10/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks'...
+177183 INFO: Analyzing hidden import 'custom_msg.srv.Trajectory'
+177183 ERROR: Hidden import 'custom_msg.srv.Trajectory' not found
+177183 INFO: Analyzing hidden import 'custom_msg.srv.TrajectoryResponse'
+177183 ERROR: Hidden import 'custom_msg.srv.TrajectoryResponse' not found
+177183 INFO: Analyzing hidden import 'custom_msg.srv.TrajectoryRequest'
+177183 ERROR: Hidden import 'custom_msg.srv.TrajectoryRequest' not found
+177183 INFO: Analyzing hidden import 'custom_msg.msg.ObjectPose'
+177183 ERROR: Hidden import 'custom_msg.msg.ObjectPose' not found
+177183 INFO: Analyzing hidden import 'custom_msg.msg.CameraStreamMsg'
+177183 ERROR: Hidden import 'custom_msg.msg.CameraStreamMsg' not found
+177183 INFO: Analyzing hidden import 'custom_msg.msg.JoggingMsg'
+177183 ERROR: Hidden import 'custom_msg.msg.JoggingMsg' not found
+177183 INFO: Processing module hooks...
+186157 INFO: Loading module hook 'hook-lxml.isoschematron.py' from '/home/greenpi/.local/lib/python3.10/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks'...
+186168 INFO: Loading module hook 'hook-sklearn.tree.py' from '/home/greenpi/.local/lib/python3.10/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks'...
+187058 INFO: Loading module hook 'hook-setuptools._distutils.command.check.py' from '/home/greenpi/.local/lib/python3.10/site-packages/PyInstaller/hooks'...
+187448 INFO: Loading module hook 'hook-gi.repository.GLib.py' from '/home/greenpi/.local/lib/python3.10/site-packages/PyInstaller/hooks'...
+189423 INFO: Loading module hook 'hook-matplotlib.backends.py' from '/home/greenpi/.local/lib/python3.10/site-packages/PyInstaller/hooks'...
+189423 INFO: Matplotlib backend selection method: automatic discovery of used backends
+189436 INFO: Discovered Matplotlib backend(s) via `matplotlib.use()` call in module 'sympy.testing.runtests': ['Agg', 'Agg']
+189476 INFO: The following Matplotlib backends were discovered by scanning for `matplotlib.use()` calls: ['Agg']. If your backend of choice is not in this list, either add a `matplotlib.use()` call to your code, or configure the backend collection via hook options (see: https://pyinstaller.org/en/stable/hooks-config.html#matplotlib-hooks).
+189476 INFO: Selected matplotlib backends: ['Agg']
+192969 INFO: Loading module hook 'hook-PIL.SpiderImagePlugin.py' from '/home/greenpi/.local/lib/python3.10/site-packages/PyInstaller/hooks'...
+193316 INFO: Processing pre-safe import module hook gi.repository.Gio from '/home/greenpi/.local/lib/python3.10/site-packages/PyInstaller/hooks/pre_safe_import_module/hook-gi.repository.Gio.py'.
+193317 INFO: Loading module hook 'hook-gi.repository.Gio.py' from '/home/greenpi/.local/lib/python3.10/site-packages/PyInstaller/hooks'...
+194577 INFO: Loading module hook 'hook-lxml.objectify.py' from '/home/greenpi/.local/lib/python3.10/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks'...
+194621 INFO: Processing pre-safe import module hook gi.repository.GObject from '/home/greenpi/.local/lib/python3.10/site-packages/PyInstaller/hooks/pre_safe_import_module/hook-gi.repository.GObject.py'.
+194623 INFO: Loading module hook 'hook-gi.repository.GObject.py' from '/home/greenpi/.local/lib/python3.10/site-packages/PyInstaller/hooks'...
+196092 INFO: Performing binary vs. data reclassification (3298 entries)
+266197 INFO: Looking for ctypes DLLs
+266614 WARNING: Library vcruntime140_1.dll required via ctypes not found
+266794 WARNING: Library vcruntime140.dll required via ctypes not found
+266969 WARNING: Library msvcp140.dll required via ctypes not found
+267157 WARNING: Library user32 required via ctypes not found
+267520 WARNING: Library msvcrt required via ctypes not found
+267536 WARNING: Ignoring /usr/lib64/libgomp.so.1 imported from /home/greenpi/.local/lib/python3.10/site-packages/torch/_inductor/codecache.py - only basenames are supported with ctypes imports!
+268623 INFO: Analyzing run-time hooks ...
+268681 INFO: Including run-time hook '/home/greenpi/.local/lib/python3.10/site-packages/PyInstaller/hooks/rthooks/pyi_rth_inspect.py'
+268684 INFO: Including run-time hook '/home/greenpi/.local/lib/python3.10/site-packages/_pyinstaller_hooks_contrib/hooks/rthooks/pyi_rth_cryptography_openssl.py'
+268685 INFO: Including run-time hook '/home/greenpi/.local/lib/python3.10/site-packages/PyInstaller/hooks/rthooks/pyi_rth_pkgutil.py'
+268693 INFO: Processing pre-find module path hook _pyi_rth_utils from '/home/greenpi/.local/lib/python3.10/site-packages/PyInstaller/hooks/pre_find_module_path/hook-_pyi_rth_utils.py'.
+268696 INFO: Loading module hook 'hook-_pyi_rth_utils.py' from '/home/greenpi/.local/lib/python3.10/site-packages/PyInstaller/hooks'...
+268697 INFO: Including run-time hook '/home/greenpi/.local/lib/python3.10/site-packages/PyInstaller/hooks/rthooks/pyi_rth_multiprocessing.py'
+268701 INFO: Including run-time hook '/home/greenpi/.local/lib/python3.10/site-packages/PyInstaller/hooks/rthooks/pyi_rth_pkgres.py'
+268705 INFO: Including run-time hook '/home/greenpi/.local/lib/python3.10/site-packages/PyInstaller/hooks/rthooks/pyi_rth_glib.py'
+268707 INFO: Including run-time hook '/home/greenpi/.local/lib/python3.10/site-packages/PyInstaller/hooks/rthooks/pyi_rth_gi.py'
+268708 INFO: Including run-time hook '/home/greenpi/.local/lib/python3.10/site-packages/PyInstaller/hooks/rthooks/pyi_rth_gio.py'
+268709 INFO: Including run-time hook '/home/greenpi/.local/lib/python3.10/site-packages/_pyinstaller_hooks_contrib/hooks/rthooks/pyi_rth_pygraphviz.py'
+268711 INFO: Including run-time hook '/home/greenpi/.local/lib/python3.10/site-packages/PyInstaller/hooks/rthooks/pyi_rth_setuptools.py'
+268714 INFO: Including run-time hook '/home/greenpi/.local/lib/python3.10/site-packages/PyInstaller/hooks/rthooks/pyi_rth_mplconfig.py'
+268718 INFO: Including run-time hook '/home/greenpi/.local/lib/python3.10/site-packages/PyInstaller/hooks/rthooks/pyi_rth_pyqt5.py'
+268846 INFO: Compiling collected GLib schema files in '/home/greenpi/app/main_robo_app/src/robo_gui/build/mainapp/_pyi_gschema_compilation'...
+269081 INFO: Looking for dynamic libraries
+
+507154 INFO: Warnings written to /home/greenpi/app/main_robo_app/src/robo_gui/build/mainapp/warn-mainapp.txt
+507893 INFO: Graph cross-reference written to /home/greenpi/app/main_robo_app/src/robo_gui/build/mainapp/xref-mainapp.html
+508324 INFO: checking PYZ
+508325 INFO: Building PYZ because PYZ-00.toc is non existent
+508325 INFO: Building PYZ (ZlibArchive) /home/greenpi/app/main_robo_app/src/robo_gui/build/mainapp/PYZ-00.pyz
+593053 INFO: Building PYZ (ZlibArchive) /home/greenpi/app/main_robo_app/src/robo_gui/build/mainapp/PYZ-00.pyz completed successfully.
+593372 INFO: checking PKG
+593372 INFO: Building PKG because PKG-00.toc is non existent
+593372 INFO: Building PKG (CArchive) mainapp.pkg
+594669 INFO: Building PKG (CArchive) mainapp.pkg completed successfully.
+594670 INFO: Bootloader /home/greenpi/.local/lib/python3.10/site-packages/PyInstaller/bootloader/Linux-64bit-arm/run
+594670 INFO: checking EXE
+594670 INFO: Building EXE because EXE-00.toc is non existent
+594670 INFO: Building EXE from EXE-00.toc
+594671 INFO: Copying bootloader EXE to /home/greenpi/app/main_robo_app/src/robo_gui/build/mainapp/mainapp
+594673 INFO: Appending PKG archive to custom ELF section in EXE
+594989 INFO: Building EXE from EXE-00.toc completed successfully.
+595061 INFO: checking COLLECT
+595061 INFO: Building COLLECT because COLLECT-00.toc is non existent
+595061 INFO: Removing dir /home/greenpi/app/main_robo_app/src/robo_gui/dist/mainapp
+596456 INFO: Building COLLECT COLLECT-00.toc
+Traceback (most recent call last):
+  File "/home/greenpi/.local/bin/pyinstaller", line 8, in <module>
+    sys.exit(_console_script_run())
+  File "/home/greenpi/.local/lib/python3.10/site-packages/PyInstaller/__main__.py", line 228, in _console_script_run
+    run()
+  File "/home/greenpi/.local/lib/python3.10/site-packages/PyInstaller/__main__.py", line 212, in run
+    run_build(pyi_config, spec_file, **vars(args))
+  File "/home/greenpi/.local/lib/python3.10/site-packages/PyInstaller/__main__.py", line 69, in run_build
+    PyInstaller.building.build_main.main(pyi_config, spec_file, **kwargs)
+  File "/home/greenpi/.local/lib/python3.10/site-packages/PyInstaller/building/build_main.py", line 1186, in main
+    build(specfile, distpath, workpath, clean_build)
+  File "/home/greenpi/.local/lib/python3.10/site-packages/PyInstaller/building/build_main.py", line 1126, in build
+    exec(code, spec_namespace)
+  File "mainapp.spec", line 131, in <module>
+    coll = COLLECT(
+  File "/home/greenpi/.local/lib/python3.10/site-packages/PyInstaller/building/api.py", line 1107, in __init__
+    self.__postinit__()
+  File "/home/greenpi/.local/lib/python3.10/site-packages/PyInstaller/building/datastruct.py", line 184, in __postinit__
+    self.assemble()
+  File "/home/greenpi/.local/lib/python3.10/site-packages/PyInstaller/building/api.py", line 1146, in assemble
+    os.makedirs(dest_dir, exist_ok=True)
+  File "/usr/lib/python3.10/os.py", line 225, in makedirs
+    mkdir(name, mode)
+NotADirectoryError: [Errno 20] Not a directory: '/home/greenpi/app/main_robo_app/src/robo_gui/dist/mainapp/_internal/lz4/frame'
